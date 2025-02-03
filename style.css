@@ -30,3 +30,20 @@ nav ul li a:hover {
     background-color: lightgray;
     color:  black;
 }
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: black;
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li a {
+    padding: 10px 15px;
+    display: block;
+}
